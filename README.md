@@ -1,9 +1,8 @@
 # searchresult.dev
-Scrape Search Results from Any website using our easy to use API using [Search Results API](https://searchresult.dev/)
+Scrape Search Result from Any website using our easy to use API using [Search Result API](https://searchresult.dev/)
 
 ## Quick start
 This example runs a search for "web" using your API key, at Hacker news search.
-
 
 ```python
 import requests
@@ -16,7 +15,7 @@ headers = {
 
 # search result url with query string
 data={'url': 'https://hn.algolia.com/?q=web'}
-result = requests.get('http://127.0.0.1:8000/search_api/api/', headers=headers,   params=data )
+result = requests.get('https://www.searchresult.dev/search_api/api/', headers=headers,   params=data )
 print(result)
 ```
 
@@ -28,7 +27,7 @@ print(result)
 	{"url":"https://news.ycombinator.com/item?id=26271117","title":"Show HN: Redbean Single-file distributable web server","text":"(https://justine.lol/redbean/index.html) 1998 points | jart | 2 years ago | 249 comments"},
 . . . 
 
-{"url":"https://news.ycombinator.com/item?id=22180559","title":"Congrats! Web scraping is legal! (US precedent)","text":"(https://parsers.me/us-court-fully-legalized-website-scraping-and-technically-prohibited-it/) 1057 points | ehurynovich | 3 years ago | 388 comments"}
+	{"url":"https://news.ycombinator.com/item?id=22180559","title":"Congrats! Web scraping is legal! (US precedent)","text":"(https://parsers.me/us-court-fully-legalized-website-scraping-and-technically-prohibited-it/) 1057 points | ehurynovich | 3 years ago | 388 comments"}
 ]
 ```
 
