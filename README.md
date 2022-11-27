@@ -2,7 +2,7 @@
 Scrape Search Result from Any website using our easy to use API using [Search Result API](https://searchresult.dev/)
 
 
-![alt text](hero.png "Title")
+![searchresult.dev](hero.png "searchresult.dev")
 
 
 ## Quick start - Python
